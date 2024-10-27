@@ -153,9 +153,8 @@ body {
     --body-color: #F0F0F4;
     --nav-color: transparent;
     --side-nav: #0D0E12;
-    --text-color: #1B1B1F;
-    --search-bar: #F2F2F2;
-    --search-text: #fcfcfd;
+    --blacktextcolor: #010002;
+    --whitetextcolor: #F1F1F4;
     --background-button: #ff5c04;
     
 }
@@ -187,7 +186,7 @@ nav .nav-bar{
     justify-content: space-between;
 }
 nav .nav-bar .sidebarOpen{
-    color: var(--text-color);
+    color: var(--blacktextcolor);
     font-size: 25px;
     padding: 5px;
     cursor: pointer;
@@ -198,7 +197,7 @@ nav .nav-bar .logo a{
     font-weight: 500;
     margin-left: 16px;
     font-family: 'Typefesse2', sans-serif;
-    color: var(--text-color);
+    color: var(--blacktextcolor);
     text-decoration: none;
 }
 .menu .logo-toggle{
@@ -217,7 +216,7 @@ nav .nav-bar .logo a{
     font-size: 17px;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
-    color: var(--text-color);
+    color: var(--blacktextcolor);
     text-decoration: none;
     padding: 10px;
 }
@@ -230,7 +229,7 @@ nav .nav-bar .logo a{
     height: 6px;
     width: 6px;
     border-radius: 50%;
-    background-color: var(--text-color);
+    background-color: var(--blacktextcolor);
     opacity: 0;
     transition: all 0.3s ease;
 }
@@ -274,7 +273,7 @@ nav .nav-bar .logo a{
         justify-content: space-between;
     }
     .logo-toggle .siderbarClose{
-        color: var(--text-color);
+        color: var(--blacktextcolor);
         font-size: 24px;
         cursor: pointer;
     }
@@ -349,7 +348,7 @@ span {
 }
 
 .button:hover {
-    background-color: var(--background-button)/30;
+    background-color: rgba(var(--background-butron), 0.8;
 }
 
 .button-2:hover {
