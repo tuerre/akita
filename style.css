@@ -348,7 +348,7 @@ span {
 }
 
 .button:hover {
-    background-color: rgba(var(--background-butron), 0.8;
+    background-color: rgba(var(--background-butron), 0.8);
 }
 
 .button-2:hover {
