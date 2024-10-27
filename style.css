@@ -156,6 +156,8 @@ body {
     --text-color: #1B1B1F;
     --search-bar: #F2F2F2;
     --search-text: #fcfcfd;
+    --background-button: #ff5c04;
+    
 }
 body{
     background-color: var(--body-color);
@@ -333,7 +335,7 @@ span {
     font-size: 16px;
     font-weight: 600;
     color: #1B1B1F;
-    background-color: rgb(0, 125, 209);
+    background-color: var(--background-button);
     border-radius: 8px;
     text-decoration: none;
     margin-right: 10px;
@@ -347,7 +349,7 @@ span {
 }
 
 .button:hover {
-    background-color: rgb(0, 106, 177);
+    background-color: var(--background-button)/30;
 }
 
 .button-2:hover {
